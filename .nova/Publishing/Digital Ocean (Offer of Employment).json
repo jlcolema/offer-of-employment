@@ -3,6 +3,6 @@
   "localPath" : "dist\/html",
   "remotePath" : "\/var\/www\/html",
   "remoteURL" : "https:\/\/employment.coleman.work",
-  "server" : "Digital Ocean (Offer of Employment)",
+  "server" : "employment.coleman.work",
   "usesPublishing" : false
 }
