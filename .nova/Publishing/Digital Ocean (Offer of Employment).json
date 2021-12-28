@@ -4,5 +4,5 @@
   "remotePath" : "\/var\/www\/html",
   "remoteURL" : "https:\/\/employment.coleman.work",
   "server" : "Digital Ocean (Offer of Employment)",
-  "usesPublishing" : false
+  "usesPublishing" : true
 }
