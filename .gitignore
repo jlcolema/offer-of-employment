@@ -1,7 +1,7 @@
 # Ignore everything in the root except the "wp-content" directory.
 
-# dist/html/*
-# !dist/html/wp-content/
+dist/html/*
+!dist/html/wp-content/
 
 # Ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory.
@@ -10,6 +10,7 @@ dist/html/wp-content/*
 # !dist/html/wp-content/mu-plugins/
 # !dist/html/wp-content/plugins/
 # !dist/html/wp-content/themes/
+!dist/html/wp-content/uploads/
 
 # Ignore these plugins.
 
@@ -18,11 +19,16 @@ dist/html/wp-content/*
 # Ignore specific themes.
 
 # dist/html/wp-content/themes/*
-# !dist/html/wp-content/themes/planetcstudios/
+# !dist/html/wp-content/themes/twentytwentyone/
+
+# Ignore specific uploads.
+
+dist/html/wp-content/uploads/*
+!dist/html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/
 
 # Ignore theme assets directory.
 
-# dist/html/wp-content/themes/planetcstudios/assets/*
+# dist/html/wp-content/themes/twentytwentyone/assets/*
 
 # Ignore source files.
 
@@ -34,9 +40,9 @@ node_modules/
 
 # Ignore log files and databases.
 
-# *.log
-# *.sql
-# *.sqlite
+*.log
+*.sql
+*.sqlite
 
 # Title
 
