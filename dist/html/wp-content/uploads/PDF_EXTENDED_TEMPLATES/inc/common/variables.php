@@ -47,51 +47,53 @@
 	$sunday_hours_to = $form_data['list'][17][1];
 	$schedule_work_days_sunday = $f[35][1];
 	$schedule_note_sunday = $f[51];
-	$schedule_total_hours_sunday =  $f[58];
+	$schedule_total_hours_sunday =  $f[92];
 	$flexible_hours_for_sunday = $f[26];
 	$hours_for_sunday_are_flexible = $f[26][1];
 
 	$monday = $f[18];
 	$schedule_work_days_monday = $f[35][2];
 	$schedule_note_monday = $f[52];
-	$schedule_total_hours_monday =  $f[59];
+	$schedule_total_hours_monday =  $f[93];
 	$flexible_hours_for_monday = $f[27];
 	$hours_for_monday_are_flexible = $f[27][1];
 
 	$tuesday = $f[19];
 	$schedule_work_days_tuesday = $f[35]['tuesday'];
 	$schedule_note_tuesday = $f[53];
-	$schedule_total_hours_tuesday =  $f[60];
+	$schedule_total_hours_tuesday =  $f[94];
 	$flexible_hours_for_tuesday = $f[28];
 	$hours_for_tuesday_are_flexible = $f[28][1];
 
 	$wednesday = $f[20];
 	$schedule_work_days_wednesday = $f[35]['wednesday'];
 	$schedule_note_wednesday = $f[54];
-	$schedule_total_hours_wednesday =  $f[61];
+	$schedule_total_hours_wednesday =  $f[95];
 	$flexible_hours_for_wednesday = $f[29];
 	$hours_for_wednesday_are_flexible = $f[29][1];
 
 	$thursday = $f[21];
 	$schedule_work_days_thursday = $f[35]['thursday'];
 	$schedule_note_thursday = $f[55];
-	$schedule_total_hours_thursday =  $f[62];
+	$schedule_total_hours_thursday =  $f[96];
 	$flexible_hours_for_thursday = $f[30];
 	$hours_for_thursday_are_flexible = $f[30][1];
 
 	$friday = $f[22];
 	$schedule_work_days_friday = $f[35]['friday'];
 	$schedule_note_friday = $f[56];
-	$schedule_total_hours_friday =  $f[63];
+	$schedule_total_hours_friday =  $f[97];
 	$flexible_hours_for_friday = $f[31];
 	$hours_for_friday_are_flexible = $f[31][1];
 
 	$saturday = $f[23];
 	$schedule_work_days_saturday = $f[35]['saturday'];
 	$schedule_note_saturday = $f[57];
-	$schedule_total_hours_saturday =  $f[64];
+	$schedule_total_hours_saturday =  $f[98];
 	$flexible_hours_for_saturday = $f[32];
 	$hours_for_saturday_are_flexible = $f[32][1];
+
+	$schedule_total_hours = $f[99];
 
 	/* Additional Positions */
 
