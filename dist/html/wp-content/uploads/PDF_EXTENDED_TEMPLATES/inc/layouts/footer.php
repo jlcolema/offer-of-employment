@@ -18,7 +18,7 @@
 
 			<div class="footer__column footer__column--third">
 
-				Updated: 03/01/21
+				Updated: 12/31/21
 
 			</div>
 
