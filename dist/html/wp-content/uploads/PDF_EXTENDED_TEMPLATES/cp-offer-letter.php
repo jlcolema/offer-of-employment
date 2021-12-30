@@ -30,7 +30,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
 <?php /* Header */ ?>
 
-<?php include( 'inc/common/header.php' ); ?>
+<?php include( 'inc/layouts/header.php' ); ?>
 
 <?php /* Main */ ?>
 
@@ -72,4 +72,4 @@ if ( ! class_exists( 'GFForms' ) ) {
 
 <?php /* Footer */ ?>
 
-<?php include( 'inc/common/footer.php' ); ?>
+<?php include( 'inc/layouts/footer.php' ); ?>
