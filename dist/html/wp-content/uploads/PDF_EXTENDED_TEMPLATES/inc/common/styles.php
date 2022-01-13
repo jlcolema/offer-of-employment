@@ -19,6 +19,23 @@
 
 	}
 
+	/* Variables */
+
+	:root {
+
+		/* Colors */
+
+		--color-blue: #0078ae;
+		--color-silver: silver;
+		--color-light-gray: lightgray;
+		--color-black: black;
+		--color-white: white;
+
+		--color-pink: pink;
+		--color-light-green: lightgreen;
+
+	}
+
 	/* Header */
 
 	.header {}
@@ -27,7 +44,7 @@
 
 			margin: 0 0 12pt 0;
 			padding: 0 0 12pt 0;
-			border-bottom: 6pt solid #0078ae;
+			border-bottom: 6pt solid var(--color-blue);
 
 		}
 
@@ -44,7 +61,7 @@
 				width: 50%;
 				font-size: 8pt;
 				line-height: 12pt;
-				color: silver;
+				color: var(--color-silver);
 
 			}
 
@@ -79,7 +96,7 @@
 				font-size: 10pt;
 				line-height: 12pt;
 				font-weight: normal;
-				color: #0078ae;
+				color: var(--color-blue);
 
 			}
 
@@ -119,7 +136,7 @@
 				font-size: 9pt;
 				line-height: 11pt;
 				font-weight: normal;
-				color: #0078ae;
+				color: var(--color-blue);
 
 			}
 
@@ -136,7 +153,7 @@
 							font-size: 9pt;
 							line-height: 11pt;
 							text-align: left;
-							border-bottom: 2px solid black;
+							border-bottom: 2px solid var(--color-black);
 
 						}
 
@@ -148,7 +165,7 @@
 
 					.schedule__tbody-tr--monday {
 
-						background: lightgray;
+						background: var(--color-light-gray);
 
 					}
 
@@ -156,7 +173,7 @@
 
 					.schedule__tbody-tr--wednesday {
 
-						background: lightgray;
+						background: var(--color-light-gray);
 
 					}
 
@@ -164,7 +181,7 @@
 
 					.schedule__tbody-tr--friday {
 
-						background: lightgray;
+						background: var(--color-light-gray);
 
 					}
 
@@ -199,14 +216,14 @@
 							padding-right: 3pt;
 							text-align: right;
 							border: none;
-							border-top: 1px solid black;
+							border-top: 1px solid var(--color-black);
 
 						}
 
 						.schedule__td--total-hours {
 
 							border: none;
-							border-top: 1px solid black;
+							border-top: 1px solid var(--color-black);
 
 						}
 
@@ -233,7 +250,7 @@
 							font-size: 9pt;
 							line-height: 11pt;
 							text-align: left;
-							border-bottom: 2px solid black;
+							border-bottom: 2px solid var(--color-black);
 
 						}
 
@@ -253,7 +270,7 @@
 
 					.positions__tbody-tr--even {
 
-						background: lightgray;
+						background: var(--color-light-gray);
 
 					}
 
@@ -286,7 +303,7 @@
 							line-height: 11pt;
 							text-align: right;
 							border: none;
-							border-top: 1px solid black;
+							border-top: 1px solid var(--color-black);
 
 						}
 
@@ -295,7 +312,7 @@
 							font-size: 9pt;
 							line-height: 11pt;
 							border: none;
-							border-top: 1px solid black;
+							border-top: 1px solid var(--color-black);
 
 						}
 
@@ -309,7 +326,7 @@
 
 			.all-hours__table {
 
-				border: 2px solid black;
+				border: 2px solid var(--color-black);
 
 			}
 
@@ -350,7 +367,7 @@
 
 				}
 
-		/* Statments */
+		/* Statements */
 
 		.statement {}
 
@@ -387,7 +404,7 @@
 				.signature__field {
 
 					float: left;
-					border-top: 1px solid black;
+					border-top: 1px solid var(--color-black);
 
 				}
 
@@ -422,7 +439,7 @@
 				width: 33.33333%;
 				font-size: 8pt;
 				line-height: 10pt;
-				color: silver;
+				color: var(--color-silver);
 
 			}
 
@@ -450,13 +467,13 @@
 
 	.variable {
 
-		/* background: pink; */
+		/* background: var(--color-pink); */
 
 	}
 
 		.variable--is-working {
 
-			/* background: lightgreen; */
+			/* background: var(--color-light-green); */
 
 		}
 
