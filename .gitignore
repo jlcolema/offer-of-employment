@@ -46,9 +46,14 @@ node_modules/
 
 # Title
 
-# *.code-workspace
-# *.nova
+*.code-workspace
+*.nova
 
 # Ignore OS generated files.
 
 .DS_Store
+
+# Miscellaneous
+
+dist/html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/inc/sections/benefits.php
+dist/html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/inc/sections/statements.php
