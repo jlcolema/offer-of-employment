@@ -57,3 +57,5 @@ node_modules/
 
 dist/html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/inc/sections/benefits.php
 dist/html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/inc/sections/statements.php
+
+organize/*
